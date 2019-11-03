@@ -6,7 +6,10 @@
   :dependencies [[org.clojure/clojure "1.10.1"]
                  [org.clojure/clojurescript "1.10.520"]
                  [duct/core "0.7.0"]
-                 [duct/module.logging "0.4.0"]]
+                 [duct/module.logging "0.4.0"]
+                 [com.google.auth/google-auth-library-oauth2-http "0.18.0"]
+                 [com.google.cloud/google-cloud-speech "1.21.0"]
+                 [com.google.cloud/google-cloud-storage "1.99.0"]]
 
   :plugins [[duct/lein-duct "0.12.1"]]
 
